@@ -5,9 +5,11 @@
     <img src="https://img.shields.io/badge/Springer%20Nature-Published-blue?style=for-the-badge" alt="Published in Springer Nature">
   </a>
   <a href="https://doi.org/10.1007/s10791-026-10477-3">
-    <img src="https://img.shields.io/badge/DOI-10.1007%2Fs10791--026--10477--3-green?style=for-the-badge" alt="DOI">
+    <img src="https://img.shields.io/badge/Research%20Paper%20DOI-10.1007%2Fs10791--026--10477--3-green?style=for-the-badge" alt="Research Paper DOI">
   </a>
-  <img src="https://img.shields.io/badge/Journal-Discover%20Computing-orange?style=for-the-badge" alt="Discover Computing">
+  <a href="https://doi.org/10.34740/kaggle/ds/10286364">
+    <img src="https://img.shields.io/badge/Dataset%20DOI-10.34740%2Fkaggle%2Fds%2F10286364-orange?style=for-the-badge" alt="Dataset DOI">
+  </a>
 </p>
 
 <p align="center">
@@ -24,14 +26,20 @@ This dataset is associated with the following peer-reviewed research publication
 
 - **Journal:** Discover Computing
 - **Publisher:** Springer Nature
-- **Publication Year:** 2026
-- **DOI:** [10.1007/s10791-026-10477-3](https://doi.org/10.1007/s10791-026-10477-3)
+- **Year:** 2026
+- **Research Paper DOI:** [10.1007/s10791-026-10477-3](https://doi.org/10.1007/s10791-026-10477-3)
 
-<p align="center">
-  <a href="https://link.springer.com/article/10.1007/s10791-026-10477-3">
-    <strong>Read the Published Research Paper →</strong>
-  </a>
-</p>
+**[Read the Published Research Paper →](https://link.springer.com/article/10.1007/s10791-026-10477-3)**
+
+## Dataset DOI
+
+The dataset is independently published and has its own Digital Object Identifier (DOI).
+
+- **Dataset Name:** Deepfake Image Dataset (DID)
+- **Platform:** Kaggle
+- **Dataset DOI:** [10.34740/kaggle/ds/10286364](https://doi.org/10.34740/kaggle/ds/10286364)
+
+**[Access the Dataset DOI →](https://doi.org/10.34740/kaggle/ds/10286364)**
 
 ---
 
@@ -63,7 +71,7 @@ The dataset contains two primary classes:
 | Validation | 10% |
 | Testing | 10% |
 
-Each subset maintains a balanced ratio of real and fake images to support unbiased model training and evaluation.
+Each subset maintains a balanced ratio of real and fake images to support model training and evaluation.
 
 ## Annotations and Format
 
@@ -104,6 +112,8 @@ These techniques help improve model generalization and robustness across differe
 - AI-based cybersecurity systems
 - Real-time content authentication
 
+---
+
 ## Dataset Download
 
 The dataset is hosted on Kaggle.
@@ -132,19 +142,30 @@ print("Dataset location:", path)
 
 Kaggle authentication may be required before downloading.
 
+---
+
 ## Intended Use
 
 This dataset is intended for academic, educational, and research purposes. Researchers can use it to develop, train, and evaluate deep learning models for detecting AI-generated and manipulated facial images.
 
 ## Citation and Acknowledgment
 
-If you use this dataset in your research, please acknowledge the **Deepfake Image Dataset (DID)** and cite the associated research publication.
+If you use this dataset in your research, please acknowledge the **Deepfake Image Dataset (DID)** and cite the dataset DOI and associated research paper.
 
-**Research Paper DOI:**  
+**Dataset DOI:**
+```text
+https://doi.org/10.34740/kaggle/ds/10286364
+```
+
+**Research Paper DOI:**
+```text
 https://doi.org/10.1007/s10791-026-10477-3
+```
 
-**Dataset Link:**  
+**Kaggle Dataset:**
+```text
 https://www.kaggle.com/datasets/abdullah122/deepfake-image-dataset-did
+```
 
 ## Author
 
@@ -155,5 +176,6 @@ Research Interests: Deep Learning, Computer Vision, Artificial Intelligence, Med
 ---
 
 <p align="center">
-  <strong>Deepfake Image Dataset (DID) | Research • AI • Computer Vision</strong>
+  <strong>Deepfake Image Dataset (DID)</strong><br>
+  Research • Artificial Intelligence • Computer Vision
 </p>
